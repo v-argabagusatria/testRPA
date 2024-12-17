@@ -45,6 +45,7 @@
       <x:String>UiPath.DataTableUtilities</x:String>
       <x:String>System.Globalization</x:String>
       <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -106,9 +107,12 @@
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Filter Transaction Date for only current period" DisplayName="Portal_PahalaKencana_FilterTrxDate" sap:VirtualizedContainerService.HintSize="595.9245283018868,1975.245283018868" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Filter Transaction Date for only current period" DisplayName="Portal_PahalaKencana_FilterTrxDate" sap:VirtualizedContainerService.HintSize="892.0000000000001,2028" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtReport" />
       <Variable x:TypeArguments="x:String" Name="strSheetName" />
@@ -120,21 +124,21 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message Portal_Klook_FilterTrxDate" sap:VirtualizedContainerService.HintSize="534.3396226415094,89.66037735849056" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;STEP : Portal Excel file&quot;]" />
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope raw file" sap:VirtualizedContainerService.HintSize="534.3396226415094,397.58490566037733" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Visible="False" WorkbookPath="[in_pathRawFile]">
+    <ui:LogMessage DisplayName="Log Message Portal_Klook_FilterTrxDate" sap:VirtualizedContainerService.HintSize="502.4,124.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;STEP : Portal Excel file&quot;]" />
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope raw file" sap:VirtualizedContainerService.HintSize="502.4,397.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Visible="False" WorkbookPath="[in_pathRawFile]">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do read report sheet" sap:VirtualizedContainerService.HintSize="400.3018867924528,288" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do read report sheet" sap:VirtualizedContainerService.HintSize="449.6,256" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ExcelGetWorkbookSheet DisplayName="Get Workbook Sheet raw file" sap:VirtualizedContainerService.HintSize="338.71698113207543,78.79245283018868" sap2010:WorkflowViewState.IdRef="ExcelGetWorkbookSheet_1" Index="0" Sheet="[strSheetName]" />
-            <ui:ExcelReadRange AddHeaders="True" DataTable="[dtReport]" DisplayName="Read Range raw file" sap:VirtualizedContainerService.HintSize="338.71698113207543,59.77358490566037" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" PreserveFormat="True" SheetName="[strSheetName]">
+            <ui:ExcelGetWorkbookSheet DisplayName="Get Workbook Sheet raw file" sap:VirtualizedContainerService.HintSize="416,112.8" sap2010:WorkflowViewState.IdRef="ExcelGetWorkbookSheet_1" Index="0" Sheet="[strSheetName]" />
+            <ui:ExcelReadRange AddHeaders="True" DataTable="[dtReport]" DisplayName="Read Range raw file" sap:VirtualizedContainerService.HintSize="416,83.2" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" PreserveFormat="True" SheetName="[strSheetName]">
               <ui:ExcelReadRange.Range>
                 <InArgument x:TypeArguments="x:String">
                   <Literal x:TypeArguments="x:String" Value="" />
@@ -151,26 +155,26 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExcelApplicationScope>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtReport]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="534.3396226415094,502.64150943396226" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtReport]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="502.4,735.2" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="499.92452830188677,389.4339622641509" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.8,586.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch datetime format" sap:VirtualizedContainerService.HintSize="438.3396226415094,279.8490566037736" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch datetime format" sap:VirtualizedContainerService.HintSize="435.2,526.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Assign DisplayName="Assign datetime parse slash format" sap:VirtualizedContainerService.HintSize="260.8301886792453,59.77358490566037" sap2010:WorkflowViewState.IdRef="Assign_1">
+                <Assign DisplayName="Assign datetime parse slash format" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Object">[CurrentRow(0)]</OutArgument>
                   </Assign.To>
                   <Assign.Value>
-                    <InArgument x:TypeArguments="x:Object">[DateTime.ParseExact(CurrentRow(0).ToString, {"dd/MM/yyyy","d/M/yyyy","d/MM/yyyy","dd/M/yyyy"}, System.Globalization.CultureInfo.InvariantCulture)]</InArgument>
+                    <InArgument x:TypeArguments="x:Object">[DateTime.ParseExact(CurrentRow(0).ToString(), New String() {"dd/MM/yyyy", "d/M/yyyy", "d/MM/yyyy", "dd/M/yyyy"}, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None)]</InArgument>
                   </Assign.Value>
                 </Assign>
               </TryCatch.Try>
@@ -186,7 +190,7 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Assign DisplayName="Assign datetime parse dash format" sap:VirtualizedContainerService.HintSize="260.8301886792453,59.77358490566037" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign DisplayName="Assign datetime parse dash format" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_2">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:Object">[CurrentRow(0)]</OutArgument>
                       </Assign.To>
@@ -197,20 +201,30 @@
                   </ActivityAction>
                 </Catch>
               </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="400,116" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Continue to next step&quot;]" />
+                </Sequence>
+              </TryCatch.Finally>
             </TryCatch>
           </Sequence>
         </ActivityAction>
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
-    <ui:FileExistsX DisplayName="File Exists file result" Exists="[FileExist]" sap:VirtualizedContainerService.HintSize="534.3396226415094,130.41509433962264" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="[in_pathResult]" />
-    <If Condition="[FileExist]" DisplayName="If result exist" sap:VirtualizedContainerService.HintSize="534.3396226415094,399.3962264150943" sap2010:WorkflowViewState.IdRef="If_1">
+    <ui:FileExistsX DisplayName="File Exists file result" Exists="[FileExist]" sap:VirtualizedContainerService.HintSize="502.4,166.4" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="[in_pathResult]" />
+    <If Condition="[FileExist]" DisplayName="If result exist" sap:VirtualizedContainerService.HintSize="502.4,410.4" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <ui:Delete ContinueOnError="{x:Null}" ResourceFile="{x:Null}" DisplayName="Delete existing file" sap:VirtualizedContainerService.HintSize="334.18867924528297,130.41509433962264" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[in_pathResult]" />
+        <ui:Delete ContinueOnError="{x:Null}" ResourceFile="{x:Null}" DisplayName="Delete existing file" sap:VirtualizedContainerService.HintSize="334.4,134.4" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[in_pathResult]" />
       </If.Then>
       <If.Else>
-        <ui:LogMessage DisplayName="Log Message create file" sap:VirtualizedContainerService.HintSize="334.18867924528297,89.66037735849056" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New File....&quot;]" />
+        <ui:LogMessage DisplayName="Log Message create file" sap:VirtualizedContainerService.HintSize="334.4,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Create New File....&quot;]" />
       </If.Else>
     </If>
-    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dtReport]" DisplayName="Write Range Workbook | Write Filterd Exclude Period" sap:VirtualizedContainerService.HintSize="534.3396226415094,115.92452830188678" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="[strSheetName]" WorkbookPath="[in_pathResult]" />
+    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dtReport]" DisplayName="Write Range Workbook | Write Filterd Exclude Period" sap:VirtualizedContainerService.HintSize="502.4,139.2" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="[strSheetName]" WorkbookPath="[in_pathResult]" />
   </Sequence>
 </Activity>

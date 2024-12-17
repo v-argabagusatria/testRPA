@@ -1,0 +1,81 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "in_BPKey",
+        "in_Period",
+        "in_Rerun"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Custom_Flow/Portal_PahalaKencana/Portal_PahalaKencana_FilterTrxDate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtReport&Sequence_1",
+        "strSheetName&Sequence_1",
+        "FileExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_period",
+        "in_pathResult",
+        "in_pathRawFile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pathScheduler&Sequence_1",
+        "dtUserConfig&Sequence_1",
+        "pathLog&Sequence_1",
+        "pathResultFile&Sequence_1",
+        "pathRawFile&Sequence_1",
+        "dtLoginChecker&Sequence_1",
+        "rowLoginChecker&Sequence_1",
+        "loginSuccess&Sequence_1",
+        "period&Sequence_1",
+        "periodStart&Sequence_1",
+        "periodEnd&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_BPKey",
+        "io_Config",
+        "in_Rerun",
+        "in_Period"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

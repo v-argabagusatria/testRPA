@@ -1,5 +1,6 @@
 {
   "name": "Traveloka_DataAutomation_Portal_Bambooairways10days",
+  "projectId": "714cb048-fbad-4385-9524-d89dcc5f9f78",
   "description": "Robotic Enterprise Framework for RPA Bamboo Airways",
   "main": "Main.xaml",
   "dependencies": {
@@ -14,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.1-alpha.7",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -22,6 +23,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -86,7 +88,8 @@
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [

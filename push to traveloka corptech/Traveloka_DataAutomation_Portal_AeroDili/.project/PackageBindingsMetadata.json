@@ -12,7 +12,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.AddQueueItem": [
@@ -27,7 +28,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.AddTransactionItem": [
@@ -42,7 +44,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.BeginProcess": [
@@ -57,7 +60,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.BulkAddQueueItems": [
@@ -72,7 +76,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.DeleteQueueItems": [
@@ -83,7 +88,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetJobs": [
@@ -94,7 +100,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetQueueItem": [
@@ -109,7 +116,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetQueueItems": [
@@ -124,7 +132,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetRobotAsset": [
@@ -139,7 +148,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetRobotCredential": [
@@ -154,7 +164,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.GetTransactionItem": [
@@ -169,7 +180,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.InvokeProcess": [
@@ -184,7 +196,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.PostponeTransactionItem": [
@@ -195,7 +208,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.QueueTrigger": [
@@ -228,7 +242,8 @@
             "Value": "ItemsPerJobActivationTarget",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.SetAsset": [
@@ -243,7 +258,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.SetCredential": [
@@ -258,7 +274,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.SetTransactionProgress": [
@@ -269,7 +286,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.SetTransactionStatus": [
@@ -280,7 +298,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.StartJob": [
@@ -295,7 +314,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.StopJob": [
@@ -306,7 +326,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.DeleteStorageFile": [
@@ -321,7 +342,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.DownloadStorageFile": [
@@ -336,7 +358,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.ListStorageFiles": [
@@ -351,7 +374,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.ReadStorageText": [
@@ -366,7 +390,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.UploadStorageFile": [
@@ -381,7 +406,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.Storage.WriteStorageText": [
@@ -396,7 +422,8 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.TimeTrigger": [
@@ -411,7 +438,8 @@
             "Value": "CronExpression",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.WaitQueueItem": [
@@ -426,12 +454,14 @@
             "Value": "FolderPath",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.GSuite.Activities.AddSheetConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -459,6 +489,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -491,14 +522,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ArchiveEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -523,12 +557,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Calendar.Triggers.EventReplied": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -565,12 +601,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Calendar.Triggers.EventUpdated": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -607,12 +645,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Calendar.Triggers.NewEventCreated": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -649,12 +689,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Calendar.Triggers.NewEventInvitationReceived": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -691,12 +733,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.CopyFileConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -724,6 +768,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "SecondaryResourceKey",
               "ValueSource": "Property"
@@ -756,10 +801,12 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           },
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -792,14 +839,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.CreateEventConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -827,6 +877,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -859,14 +910,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.CreateFolderConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -894,6 +948,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -926,14 +981,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.CreateSpreadsheetConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -961,6 +1019,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -993,14 +1052,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DeleteEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1025,12 +1087,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DeleteEventConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1055,12 +1119,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DeleteFileOrFolderConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1088,6 +1154,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1120,14 +1187,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DeleteRangeConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1155,6 +1225,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1187,14 +1258,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DeleteSheetConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1222,6 +1296,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1254,14 +1329,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Docs.GoogleDocsApplicationScope": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1286,12 +1364,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DownloadAttachmentsConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1316,12 +1396,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DownloadEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1346,12 +1428,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.DownloadFileConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1379,6 +1463,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1411,14 +1496,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Drive.GoogleDriveApplicationScope": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1443,12 +1531,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Drive.Triggers.FileUpdated": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1488,6 +1578,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1520,14 +1611,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Drive.Triggers.NewFileCreated": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1567,6 +1661,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1599,14 +1694,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Drive.Triggers.NewFolderCreated": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1646,6 +1744,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1678,14 +1777,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForEachEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1713,6 +1815,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1745,14 +1848,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForEachEventConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1780,6 +1886,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1812,14 +1919,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForEachFileFolderConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1847,6 +1957,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1879,14 +1990,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForEachRowConnections\u00601": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1914,6 +2028,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -1946,14 +2061,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForEachSheetConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -1981,6 +2099,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2013,14 +2132,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForwardEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2045,12 +2167,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ForwardEventConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2075,12 +2199,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetEmailByIdConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2105,12 +2231,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetEmailListConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2138,6 +2266,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2170,14 +2299,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetEventListConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2205,6 +2337,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2237,14 +2370,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetFileFolderConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2272,6 +2408,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2304,10 +2441,12 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           },
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2340,14 +2479,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetFileListConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2375,6 +2517,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2407,14 +2550,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.GetNewestEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2442,6 +2588,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2474,14 +2621,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Gmail.Triggers.EmailSent": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2518,12 +2668,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Gmail.Triggers.NewEmailReceived": [
       {
         "Type": "EventTrigger",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2563,6 +2715,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2595,14 +2748,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.MarkAsReadUnreadConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2627,12 +2783,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ModifyEventConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2657,12 +2815,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.MoveEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2690,6 +2850,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2722,14 +2883,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.MoveFileConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2757,6 +2921,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "SecondaryResourceKey",
               "ValueSource": "Property"
@@ -2789,10 +2954,12 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           },
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2825,14 +2992,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ReadCellConnections\u00601": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2860,6 +3030,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2892,14 +3063,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ReadRangeConnections\u00601": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2927,6 +3101,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -2959,14 +3134,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.RenameSheetConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -2994,6 +3172,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3026,14 +3205,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ReplyToEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3058,12 +3240,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.RsvpConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3088,12 +3272,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.SendEmailConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3118,12 +3304,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.ShareFileFolderConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3151,6 +3339,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3183,14 +3372,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.Sheets.GoogleSheetsApplicationScope": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3215,12 +3407,14 @@
             "ValueSource": "Property"
           }
         },
-        "SubBindings": []
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.UploadFilesConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3248,6 +3442,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3280,14 +3475,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.WriteCellConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3315,6 +3513,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3347,14 +3546,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.WriteColumnConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3382,6 +3584,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3414,14 +3617,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.WriteRangeConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3449,6 +3655,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3481,14 +3688,17 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.GSuite.Activities.WriteRowConnections": [
       {
         "Type": "Connection",
+        "PublishNullValues": false,
         "Key": {
           "Value": "BindingsKey",
           "ValueSource": "Property"
@@ -3516,6 +3726,7 @@
         "SubBindings": [
           {
             "Type": "Property",
+            "PublishNullValues": false,
             "Key": {
               "Value": "ResourceKey",
               "ValueSource": "Property"
@@ -3548,9 +3759,11 @@
                 "ValueSource": "Constant"
               }
             },
-            "SubBindings": []
+            "SubBindings": [],
+            "DefaultValueSource": "Property"
           }
-        ]
+        ],
+        "DefaultValueSource": "Property"
       }
     ],
     "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
@@ -3575,7 +3788,8 @@
             "Value": "Connector",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Mail.Activities.Business.GmailApplicationCard": [
@@ -3600,7 +3814,8 @@
             "Value": "Connector",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Mail.Activities.Business.NewGmailTrigger": [
@@ -3629,7 +3844,8 @@
             "Value": "ObjectName",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Mail.Activities.Business.NewO365EmailTrigger": [
@@ -3658,7 +3874,8 @@
             "Value": "ObjectName",
             "ValueSource": "Property"
           }
-        }
+        },
+        "DefaultValueSource": "Default"
       }
     ]
   }
