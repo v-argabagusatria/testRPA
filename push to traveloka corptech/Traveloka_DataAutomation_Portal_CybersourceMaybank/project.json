@@ -1,6 +1,5 @@
 {
   "name": "Traveloka_DataAutomation_Portal_Cybersourcemaybank",
-  "projectId": "01c701e5-d924-45a6-8f10-3c1cfeebc253",
   "description": "Robotic Enterprise Framework for RPA Maybank Portal",
   "main": "Main.xaml",
   "dependencies": {
@@ -15,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.3.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.2-alpha.5",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -23,7 +22,6 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -88,8 +86,7 @@
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
-    "modernBehavior": false,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
