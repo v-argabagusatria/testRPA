@@ -1,10 +1,11 @@
 {
   "name": "Traveloka_DataAutomation_Portal_Thsr",
+  "projectId": "63203aea-e14b-4a9f-82da-939fc5930b5e",
   "description": "Robotic Enterprise Framework for RPA portal THSR",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.GSuite.Activities": "[2.3.2-preview]",
+    "UiPath.GSuite.Activities": "[2.6.21]",
     "UiPath.Mail.Activities": "[1.20.3]",
     "UiPath.System.Activities": "[22.10.3]",
     "UiPath.Testing.Activities": "[22.10.0]",
@@ -22,6 +23,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -86,7 +88,8 @@
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [

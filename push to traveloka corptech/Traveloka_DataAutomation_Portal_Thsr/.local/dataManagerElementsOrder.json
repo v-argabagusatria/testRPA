@@ -1,0 +1,70 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_UserConfig&Sequence_9",
+        "dt_LoginChecker&Sequence_9",
+        "rowLoginChecker&Sequence_9",
+        "flagArchieve&Sequence_9",
+        "pathLoginChecker&Sequence_9",
+        "LoginChecker&Sequence_9",
+        "periodStart&Sequence_9",
+        "periodEnd&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_Config",
+        "out_strPathScheduler",
+        "in_strBPKey",
+        "out_strPathlog",
+        "io_dPeriod"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "Period&StateMachine_1",
+        "dt_QueueData&StateMachine_1",
+        "QueueItem&StateMachine_1",
+        "strPathFolder&StateMachine_1",
+        "strPathLog&StateMachine_1",
+        "ConfigPath&Sequence_4",
+        "EnvironmentVariable&Sequence_17",
+        "ShouldStop&Sequence_25",
+        "cellRerunFlag&Sequence_38"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "in_BPKey",
+        "in_Period",
+        "in_Rerun"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
