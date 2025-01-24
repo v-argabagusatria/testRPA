@@ -3,9 +3,9 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
@@ -28,8 +28,9 @@
         "QueueItem&StateMachine_1",
         "strPathFolder&StateMachine_1",
         "strPathLog&StateMachine_1",
-        "EnvironmentVariable&Sequence_17",
+        "ErrorFlag&StateMachine_1",
         "ConfigPath&Sequence_17",
+        "EnvironmentVariable&Sequence_17",
         "ShouldStop&Sequence_25",
         "cellRerunFlag&Sequence_38"
       ],

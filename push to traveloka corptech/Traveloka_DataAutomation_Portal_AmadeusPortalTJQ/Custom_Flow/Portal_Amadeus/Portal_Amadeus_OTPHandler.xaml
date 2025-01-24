@@ -6,34 +6,21 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1077,2563</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1071,2167</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Portal_Cybersourcepaymaya_OTPHandler_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="33">
+    <scg:List x:TypeArguments="x:String" Capacity="264">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
       <x:String>Microsoft.VisualBasic</x:String>
-      <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
-      <x:String>System.Data</x:String>
-      <x:String>System.Diagnostics</x:String>
       <x:String>System.Drawing</x:String>
-      <x:String>System.IO</x:String>
       <x:String>System.Linq</x:String>
       <x:String>System.Net.Mail</x:String>
-      <x:String>System.Xml</x:String>
-      <x:String>System.Xml.Linq</x:String>
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
-      <x:String>GlobalVariablesNamespace</x:String>
-      <x:String>GlobalConstantsNamespace</x:String>
-      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>System.Security</x:String>
@@ -43,62 +30,96 @@
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>System.Text.RegularExpressions</x:String>
       <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Collections.Specialized</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
-      <AssemblyReference>System.Activities</AssemblyReference>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="100">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
-      <AssemblyReference>UiPath.Mail</AssemblyReference>
-      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
-      <AssemblyReference>System.Net.Mail</AssemblyReference>
-      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
       <AssemblyReference>UiPath.Python</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.CodeDom</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Wizards</AssemblyReference>
+      <AssemblyReference>UiPath.Interop</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomation.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="1. Check if otp exist&#xA;2. If ask for OTP, Check email for rpa.uipath@traveloka.com&#xA;3. Filter email with subject &quot;Your Agent Login One-Time Password (OTP)&quot;&#xA;4. OTP code placed in email body" DisplayName="Portal_Amadeus_OTPHandler" sap:VirtualizedContainerService.HintSize="560,2498" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap2010:Annotation.AnnotationText="1. Check if otp exist&#xA;2. If ask for OTP, Check email for rpa.uipath@traveloka.com&#xA;3. Filter email with subject &quot;Your Agent Login One-Time Password (OTP)&quot;&#xA;4. OTP code placed in email body" DisplayName="Portal_Amadeus_OTPHandler" sap:VirtualizedContainerService.HintSize="928,4823" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="usrname" />
       <Variable x:TypeArguments="ss:SecureString" Name="pwd" />
@@ -110,11 +131,7 @@
       <Variable x:TypeArguments="x:String" Default="[Now.ToString(&quot;dd-MMM-yyyy&quot;).ToUpper]" Name="period" />
       <Variable x:TypeArguments="x:String" Name="strRegexPattern" />
       <Variable x:TypeArguments="s:String[]" Name="arrFilterPatterns" />
-      <Variable x:TypeArguments="s:DateTime" Name="currentTime">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="s:DateTime" ExpressionText="Now.AddMinutes(-1)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="s:DateTime" Default="[Now.AddMinutes(-1)]" Name="currentTime" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -122,8 +139,8 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message process OTP" sap:VirtualizedContainerService.HintSize="498,92" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;STEP : Get OTP&quot;]" />
-    <ui:GetRobotCredential AssetName="[in_emailCred]" CacheStrategy="None" DisplayName="Get Credential Email" sap:VirtualizedContainerService.HintSize="498,52" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[pwd]" Username="[usrname]">
+    <ui:LogMessage DisplayName="Log Message process OTP" sap:VirtualizedContainerService.HintSize="866,124" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;STEP : Get OTP&quot;]" />
+    <ui:GetRobotCredential AssetName="[in_emailCred]" CacheStrategy="None" DisplayName="Get Credential Email" sap:VirtualizedContainerService.HintSize="866,173" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[pwd]" Username="[usrname]">
       <ui:GetRobotCredential.TimeoutMS>
         <InArgument x:TypeArguments="x:Int32" />
       </ui:GetRobotCredential.TimeoutMS>
@@ -134,7 +151,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:GetRobotCredential>
-    <Assign sap2010:Annotation.AnnotationText="Mail filter for OTP&#xA;- Subject = Your Agent Login One-Time Password (OTP)&#xA;- Domain =noreply@notification.airasia.com&#xA;- Expression = &quot;SINCE 23-Feb-2021 SUBJECT &quot;&quot;Your Agent Login One-Time Password (OTP)&quot;&quot; FROM noreply@notification.airasia.com&quot;" DisplayName="Assign Mail Filter OTP" sap:VirtualizedContainerService.HintSize="498,208" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap2010:Annotation.AnnotationText="Mail filter for OTP&#xA;- Subject = Your Agent Login One-Time Password (OTP)&#xA;- Domain =noreply@notification.airasia.com&#xA;- Expression = &quot;SINCE 23-Feb-2021 SUBJECT &quot;&quot;Your Agent Login One-Time Password (OTP)&quot;&quot; FROM noreply@notification.airasia.com&quot;" DisplayName="Assign Mail Filter OTP" sap:VirtualizedContainerService.HintSize="866,201" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[filterExpression]</OutArgument>
       </Assign.To>
@@ -147,56 +164,55 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <TryCatch DisplayName="Try Catch get email" sap:VirtualizedContainerService.HintSize="498,52" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch get email" sap:VirtualizedContainerService.HintSize="866,2181" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <ui:RetryScope DisplayName="Retry Scope Get OTP Mail" sap:VirtualizedContainerService.HintSize="820,2029" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="24" RetryInterval="00:00:05">
+        <ui:RetryScope DisplayName="Retry Scope Get OTP Mail" sap:VirtualizedContainerService.HintSize="828,1818" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="24" RetryInterval="00:00:05">
           <ui:RetryScope.ActivityBody>
             <ActivityAction>
-              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="778,1781" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="786,1570" sap2010:WorkflowViewState.IdRef="Sequence_13">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" Password="{x:Null}" Top="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Get IMAP Mail Messages OTP" Email="[usrname]" EnableSSL="True" FilterExpression="[filterExpression]" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="716,25" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_2" IgnoreCRL="False" MailFolder="Inbox" MarkAsRead="True" Messages="[listMailMessage]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Port="993" SecureConnection="Auto" SecurePassword="[pwd]" Server="imap.gmail.com" TimeoutMS="180000" />
-                <If Condition="[listMailMessage.Count &gt; 0]" DisplayName="If mail found check current OTP" sap:VirtualizedContainerService.HintSize="716,1605" sap2010:WorkflowViewState.IdRef="If_3">
+                <ui:GetIMAPMailMessages ClientName="{x:Null}" ClientVersion="{x:Null}" Password="{x:Null}" Top="{x:Null}" UseOAuth="{x:Null}" DeleteMessages="False" DisplayName="Get IMAP Mail Messages OTP" Email="[usrname]" EnableSSL="True" FilterExpression="[filterExpression]" FilterExpressionCharacterSet="US-ASCII" sap:VirtualizedContainerService.HintSize="724,57" sap2010:WorkflowViewState.IdRef="GetIMAPMailMessages_2" IgnoreCRL="False" MailFolder="Inbox" MarkAsRead="True" Messages="[listMailMessage]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Port="993" SecureConnection="Auto" SecurePassword="[pwd]" Server="imap.gmail.com" TimeoutMS="180000" />
+                <If Condition="[listMailMessage.Count &gt; 0]" DisplayName="If mail found check current OTP" sap:VirtualizedContainerService.HintSize="724,1425" sap2010:WorkflowViewState.IdRef="If_3">
                   <If.Then>
-                    <Sequence sap:VirtualizedContainerService.HintSize="638,1226" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="690,1061" sap2010:WorkflowViewState.IdRef="Sequence_11">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each Mail" sap:VirtualizedContainerService.HintSize="576,1115" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listMailMessage]">
+                      <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each Mail" sap:VirtualizedContainerService.HintSize="628,973" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listMailMessage]">
                         <ui:ForEach.Body>
                           <ActivityAction x:TypeArguments="snm:MailMessage">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="snm:MailMessage" Name="currentMail" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Body find OTP" sap:VirtualizedContainerService.HintSize="540,991" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <Sequence DisplayName="Body find OTP" sap:VirtualizedContainerService.HintSize="592,826" sap2010:WorkflowViewState.IdRef="Sequence_10">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <If Condition="[CDate(currentMail.Headers(&quot;Date&quot;))&gt;currentTime]" DisplayName="If Email OTP Found" sap:VirtualizedContainerService.HintSize="478,880" sap2010:WorkflowViewState.IdRef="If_4">
+                              <If Condition="[CDate(currentMail.Headers(&quot;Date&quot;)) &gt; currentTime]" DisplayName="If Email OTP Found" sap:VirtualizedContainerService.HintSize="530,738" sap2010:WorkflowViewState.IdRef="If_4">
                                 <If.Then>
-                                  <Sequence sap:VirtualizedContainerService.HintSize="400,501" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,374" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ui:LogMessage DisplayName="Log Message mail time" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[CDate(currentMail.Headers(&quot;Date&quot;)).ToString]" />
-                                    <ui:LogMessage DisplayName="Log Message email found" sap:VirtualizedContainerService.HintSize="338,92" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Email found&quot;]" />
-                                    <Assign sap:VirtualizedContainerService.HintSize="338,61" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                    <ui:LogMessage DisplayName="Log Message email found" sap:VirtualizedContainerService.HintSize="434,124" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Email found&quot;]" />
+                                    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_7">
                                       <Assign.To>
                                         <OutArgument x:TypeArguments="x:Boolean">[emailFound]</OutArgument>
                                       </Assign.To>
@@ -204,7 +220,7 @@
                                         <InArgument x:TypeArguments="x:Boolean">True</InArgument>
                                       </Assign.Value>
                                     </Assign>
-                                    <ui:Break DisplayName="Break email found" sap:VirtualizedContainerService.HintSize="338,25" sap2010:WorkflowViewState.IdRef="Break_1" />
+                                    <ui:Break DisplayName="Break email found" sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="Break_1" />
                                   </Sequence>
                                 </If.Then>
                                 <If.Else>
@@ -274,21 +290,21 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="498,353" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="866,398" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
-        <Sequence sap:VirtualizedContainerService.HintSize="462,274" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <Sequence sap:VirtualizedContainerService.HintSize="512,247" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,163" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,159" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:RetryScope DisplayName="Retry Scope Get OTP Mail" sap:VirtualizedContainerService.HintSize="338,52" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="24" RetryInterval="00:00:05">
+            <ui:RetryScope DisplayName="Retry Scope Get OTP Mail" sap:VirtualizedContainerService.HintSize="388,48" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="24" RetryInterval="00:00:05">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
                   <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="400,268" sap2010:WorkflowViewState.IdRef="Sequence_5">
@@ -336,7 +352,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <If Condition="[Not emailFound]" DisplayName="If Email not Found throw Business Rule Exception" sap:VirtualizedContainerService.HintSize="498,477" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[Not emailFound]" DisplayName="If Email not Found throw Business Rule Exception" sap:VirtualizedContainerService.HintSize="866,474" sap2010:WorkflowViewState.IdRef="If_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -344,18 +360,27 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="400,201" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Throw DisplayName="Throw Business Exception" Exception="[New BusinessRuleException(&quot;There's no OTP mail for Amadeus&quot;)]" sap:VirtualizedContainerService.HintSize="338,90" sap2010:WorkflowViewState.IdRef="Throw_1" />
+          <Throw DisplayName="Throw Business Exception" Exception="[New BusinessRuleException(&quot;There's no OTP mail for Amadeus&quot;)]" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="Throw_1" />
         </Sequence>
       </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,103" sap2010:WorkflowViewState.IdRef="Sequence_16">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
     </If>
-    <ui:LogMessage DisplayName="Log Message mail body" sap:VirtualizedContainerService.HintSize="498,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[listMailMessage(0).BodyAsHtml]" />
-    <Assign DisplayName="Assign regex pattern" sap:VirtualizedContainerService.HintSize="498,61" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <ui:LogMessage DisplayName="Log Message mail body" sap:VirtualizedContainerService.HintSize="866,124" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[listMailMessage(0).BodyAsHtml]" />
+    <Assign DisplayName="Assign regex pattern" sap:VirtualizedContainerService.HintSize="866,114" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[strRegexPattern]</OutArgument>
       </Assign.To>
@@ -363,7 +388,7 @@
         <InArgument x:TypeArguments="x:String">\b[A-Z0-9]{6}\b</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign DisplayName="Assign filter for regex" sap:VirtualizedContainerService.HintSize="498,61" sap2010:WorkflowViewState.IdRef="Assign_5">
+    <Assign DisplayName="Assign filter for regex" sap:VirtualizedContainerService.HintSize="866,114" sap2010:WorkflowViewState.IdRef="Assign_5">
       <Assign.To>
         <OutArgument x:TypeArguments="s:String[]">[arrFilterPatterns]</OutArgument>
       </Assign.To>
@@ -371,7 +396,7 @@
         <InArgument x:TypeArguments="s:String[]">[{"F1FAFF","5799BE","09285E","NOTICE"}]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap2010:Annotation.AnnotationText="Sample mail body : Here's the 6-digit OTP for your AirAsia agent login&#xA;&#xA;543319&#xA;This OTP is valid for 5 minutes.&#xA;&#xA;Ignore this email if you didn't request for an OTP.&#xA;&#xA;Get the OTP : 543319&#xA;Use regex expression to get otp&#xA;system.Text.RegularExpressions.Regex.Match(listMailMessage(0).Body,&quot;\d{6}&quot;).ToString" DisplayName="Assign OTP Code" sap:VirtualizedContainerService.HintSize="498,283" sap2010:WorkflowViewState.IdRef="Assign_6">
+    <Assign sap2010:Annotation.AnnotationText="Sample mail body : Here's the 6-digit OTP for your AirAsia agent login&#xA;&#xA;543319&#xA;This OTP is valid for 5 minutes.&#xA;&#xA;Ignore this email if you didn't request for an OTP.&#xA;&#xA;Get the OTP : 543319&#xA;Use regex expression to get otp&#xA;system.Text.RegularExpressions.Regex.Match(listMailMessage(0).Body,&quot;\d{6}&quot;).ToString" DisplayName="Assign OTP Code" sap:VirtualizedContainerService.HintSize="866,291" sap2010:WorkflowViewState.IdRef="Assign_6">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[out_otpCode]</OutArgument>
       </Assign.To>
@@ -384,7 +409,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="498,52" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="866,354" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,203" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <sap:WorkflowViewStateService.ViewState>
@@ -414,6 +439,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:LogMessage DisplayName="Log Message OTP Code" sap:VirtualizedContainerService.HintSize="498,92" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[String.Format(&quot;The otp is {0}&quot;, out_otpCode)]" />
+    <ui:LogMessage DisplayName="Log Message OTP Code" sap:VirtualizedContainerService.HintSize="866,115" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[String.Format(&quot;The otp is {0}&quot;, out_otpCode)]" />
   </Sequence>
 </Activity>
