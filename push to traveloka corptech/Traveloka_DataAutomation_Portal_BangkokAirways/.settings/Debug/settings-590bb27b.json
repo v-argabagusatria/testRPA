@@ -1,4 +1,4 @@
-{
+﻿{
   "DefaultOCREngine": "UiPath.Core.Activities.GoogleOCR, UiPath.UiAutomation.Activities",
   "UiPath.UiAutomation.Activities.GoogleCloudOCR.ApiKey": "",
   "UiPath.UiAutomation.Activities.GoogleCloudOCR.Scale": "1",
